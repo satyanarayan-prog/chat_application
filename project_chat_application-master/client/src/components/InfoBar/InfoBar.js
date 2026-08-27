@@ -9,6 +9,7 @@ const InfoBar = ({ room }) => (
   <div className="infoBar">
     <div className="leftInnerContainer">
       <img className="onlineIcon" src={onlineIcon} alt="online icon" />
+      <h2>{room}</h2>
         <h2>{room}</h2>
     </div>
     <div className="rightInnerContainer">
