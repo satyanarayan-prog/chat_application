@@ -8,7 +8,7 @@ import './InfoBar.css';
 const InfoBar = ({ room }) => (
   <div className="infoBar">
     <div className="leftInnerContainer">
-      <img className="onlineIcon" src={onlineIcon} alt="online chat icon" />
+      <img className="onlineIcon" src={onlineIcon} alt="the online chat icon" />
       <h2>{room}</h2>
         <h2>{room}</h2>
     </div>
